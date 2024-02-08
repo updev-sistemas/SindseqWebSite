@@ -1,0 +1,21 @@
+
+.files-attach:before { content: '\e800'; } /* '' */
+.files-load:before { content: '\e834'; } /* '' */
+.files-firefox:before { content: '\e840'; } /* '' */
+.files-chrome:before { content: '\e841'; } /* '' */
+.files-opera:before { content: '\e842'; } /* '' */
+.files-ie:before { content: '\e843'; } /* '' */
+.files-doc-text:before { content: '\f0f6'; } /* '' */
+.files-angle-left:before { content: '\f104'; } /* '' */
+.files-angle-right:before { content: '\f105'; } /* '' */
+.files-angle-up:before { content: '\f106'; } /* '' */
+.files-angle-down:before { content: '\f107'; } /* '' */
+.files-file-pdf:before { content: '\f1c1'; } /* '' */
+.files-file-word:before { content: '\f1c2'; } /* '' */
+.files-file-excel:before { content: '\f1c3'; } /* '' */
+.files-file-powerpoint:before { content: '\f1c4'; } /* '' */
+.files-file-image:before { content: '\f1c5'; } /* '' */
+.files-file-archive:before { content: '\f1c6'; } /* '' */
+.files-file-audio:before { content: '\f1c7'; } /* '' */
+.files-file-video:before { content: '\f1c8'; } /* '' */
+.files-file-code:before { content: '\f1c9'; } /* '' */

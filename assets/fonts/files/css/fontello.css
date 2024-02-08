@@ -1,0 +1,77 @@
+@font-face {
+  font-family: 'fontello';
+  src: url('../font/fontello.eot?97054811');
+  src: url('../font/fontello.eot?97054811#iefix') format('embedded-opentype'),
+       url('../font/fontello.woff2?97054811') format('woff2'),
+       url('../font/fontello.woff?97054811') format('woff'),
+       url('../font/fontello.ttf?97054811') format('truetype'),
+       url('../font/fontello.svg?97054811#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'fontello';
+    src: url('../font/fontello.svg?97054811#fontello') format('svg');
+  }
+}
+*/
+ 
+ [class^="files-"]:before, [class*=" files-"]:before {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+ 
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+ 
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+ 
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+ 
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+ 
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+ 
+.files-attach:before { content: '\e800'; } /* '' */
+.files-load:before { content: '\e834'; } /* '' */
+.files-firefox:before { content: '\e840'; } /* '' */
+.files-chrome:before { content: '\e841'; } /* '' */
+.files-opera:before { content: '\e842'; } /* '' */
+.files-ie:before { content: '\e843'; } /* '' */
+.files-doc-text:before { content: '\f0f6'; } /* '' */
+.files-angle-left:before { content: '\f104'; } /* '' */
+.files-angle-right:before { content: '\f105'; } /* '' */
+.files-angle-up:before { content: '\f106'; } /* '' */
+.files-angle-down:before { content: '\f107'; } /* '' */
+.files-file-pdf:before { content: '\f1c1'; } /* '' */
+.files-file-word:before { content: '\f1c2'; } /* '' */
+.files-file-excel:before { content: '\f1c3'; } /* '' */
+.files-file-powerpoint:before { content: '\f1c4'; } /* '' */
+.files-file-image:before { content: '\f1c5'; } /* '' */
+.files-file-archive:before { content: '\f1c6'; } /* '' */
+.files-file-audio:before { content: '\f1c7'; } /* '' */
+.files-file-video:before { content: '\f1c8'; } /* '' */
+.files-file-code:before { content: '\f1c9'; } /* '' */
